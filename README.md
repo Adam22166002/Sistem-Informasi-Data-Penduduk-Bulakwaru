@@ -42,25 +42,33 @@ SIDADU memvisualisasikan **denah rumah** serta **data penduduk** dalam bentuk pe
 ```bash
 git clone https://github.com/username/sidadu.git
 cd sidadu
-2️⃣ Install Dependencies Laravel
+
+### 2️⃣ Install Dependencies Laravel
 ```bash
 composer install
-```bash
-3️⃣ Copy Environment File
+
+
+### 3️⃣ Copy Environment File
 ```bash
 cp .env.example .env
 php artisan key:generate
-5️⃣ Migrasi & Seeder
+
+### 5️⃣ Migrasi & Seeder
 ```bash
 php artisan migrate --seed
-🧩 Instalasi Frontend (Vite + NPM)
-6️⃣ Install NPM Packages
+
+
+## 🧩 Instalasi Frontend (Vite + NPM)
+
+### 6️⃣ Install NPM Packages
 ```bash
 npm install
-7️⃣ Jalankan Dev Server
+
+### 7️⃣ Jalankan Dev Server
 ```bash
 npm run dev
-8️⃣ Jalankan Laravel
+
+### 8️⃣ Jalankan Laravel
 ```bash
 php artisan serve
 
