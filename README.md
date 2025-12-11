@@ -36,25 +36,31 @@ SIDADU memvisualisasikan **denah rumah** serta **data penduduk** dalam bentuk pe
 
 ---
 
-## 📁 Struktur Folder Penting
-app/
-resources/
- ├─ views/
- ├─ js/
- ├─ css/
-routes/
- ├─ web.php
-public/
- ├─ geosjon/
-database/
- ├─ migrations/
-
-
----
-
 ## 📦 Instalasi
 
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/username/sidadu.git
 cd sidadu
+2️⃣ Install Dependencies Laravel
+```bash
+composer install
+```bash
+3️⃣ Copy Environment File
+```bash
+cp .env.example .env
+php artisan key:generate
+5️⃣ Migrasi & Seeder
+```bash
+php artisan migrate --seed
+🧩 Instalasi Frontend (Vite + NPM)
+6️⃣ Install NPM Packages
+```bash
+npm install
+7️⃣ Jalankan Dev Server
+```bash
+npm run dev
+8️⃣ Jalankan Laravel
+```bash
+php artisan serve
+
