@@ -40,7 +40,7 @@ SIDADU memvisualisasikan **denah rumah** serta **data penduduk** dalam bentuk pe
 
 ### 1️⃣ Clone Repository
 ```bash
-[git clone https://github.com/username/sidadu.git](https://github.com/Adam22166002/Sistem-Informasi-Data-Penduduk-Bulakwaru.git)
+git clone https://github.com/username/sidadu.git](https://github.com/Adam22166002/Sistem-Informasi-Data-Penduduk-Bulakwaru.git
 cd Sistem-Informasi-Data-Penduduk-Bulakwaru
 ```
 ### 2️⃣ Install Dependencies Laravel
