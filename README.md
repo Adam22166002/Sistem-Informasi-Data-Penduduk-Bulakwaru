@@ -20,8 +20,8 @@ SIDADU memvisualisasikan **denah rumah** serta **data penduduk** dalam bentuk pe
 - 📊 **Dashboard Statistik Penduduk**  
   Menampilkan jumlah penduduk, keluarga, dan grafik visual.
 
-- 🔐 **Autentikasi User (Laravel Breeze/Fortify)**  
-  Mendukung role admin & operator desa.
+- 🔐 **Autentikasi User (Laravel Breeze)**  
+  Mendukung role admin & user.
 
 ---
 
@@ -32,7 +32,7 @@ SIDADU memvisualisasikan **denah rumah** serta **data penduduk** dalam bentuk pe
 - **Leaflet.js (OpenStreetMap)**
 - **Vite**
 - **NPM**
-- **Bootstrap / Tailwind CSS (opsional)**
+- **Bootstrap 5**
 
 ---
 
@@ -40,8 +40,8 @@ SIDADU memvisualisasikan **denah rumah** serta **data penduduk** dalam bentuk pe
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/username/sidadu.git
-cd sidadu
+[git clone https://github.com/username/sidadu.git](https://github.com/Adam22166002/Sistem-Informasi-Data-Penduduk-Bulakwaru.git)
+cd Sistem-Informasi-Data-Penduduk-Bulakwaru
 ```
 ### 2️⃣ Install Dependencies Laravel
 ```bash
