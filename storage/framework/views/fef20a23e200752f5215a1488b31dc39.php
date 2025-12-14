@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Hapus rumah?",
             text: "Data tidak bisa dikembalikan.",
             icon: "warning",
-            showCancelButton: true,
+            showCancelButton: false,
             confirmButtonText: "Hapus"
         }).then(async result => {
             if (result.isConfirmed) {
